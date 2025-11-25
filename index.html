@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veldkust APV</title>
+  <link rel="icon" href="https://cdn.discordapp.com/icons/YOUR_SERVER_ID/YOUR_ICON.png" type="image/x-icon">
+  <meta property="og:title" content="Veldkust APV – Straffen en Regels">
+  <meta property="og:description" content="Bekijk de regels en straffen van Veldkust Roleplay, inclusief categorieën en richtlijnen.">
+  <meta property="og:image" content="https://cdn.discordapp.com/icons/YOUR_SERVER_ID/YOUR_ICON.png">
+  <meta property="og:url" content="https://hackynl.github.io/veldkustapv/">
+  <meta property="og:type" content="website">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f5f5;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      background: #111827;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header img {
+      max-width: 120px;
+      margin-bottom: 1rem;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+
+    header h2 {
+      font-weight: 400;
+      color: #d1d5db;
+      font-size: 1.25rem;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background-color: #1f2937;
+      padding: 0.5rem 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .navbar a {
+      color: #f9fafb;
+      font-weight: 500;
+      padding: 0.5rem 1.25rem;
+      margin: 0 0.25rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .navbar a:hover {
+      background-color: #3b82f6;
+      transform: translateY(-2px);
+    }
+
+    .navbar a.active {
+      background-color: #3b82f6;
+      color: white;
+      font-weight: 600;
+      position: relative;
+    }
+
+    .navbar a.active::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 25%;
+      width: 50%;
+      height: 3px;
+      background-color: white;
+      border-radius: 2px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    .artikel {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+
+    .artikel h1 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .artikel h1 span {
+      display: block;
+      font-size: 1rem;
+      font-weight: 500;
+      font-style: italic;
+      color: #666;
+      margin-top: 0.3rem;
+    }
+
+    .artikel p,
+    .artikel ul {
+      font-size: 1rem;
+      color: #333;
+      margin-top: 1rem;
+    }
+
+    .artikel ul {
+      padding-left: 1rem;
+      list-style: disc inside;
+    }
+
+    .artikel ul ul {
+      padding-left: 2rem;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #f9f9f9;
+      color: #555;
+      font-size: 0.9rem;
+      border-top: 1px solid #ddd;
+    }
+
+    @media(max-width: 600px){
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header h2 {
+        font-size: 1rem;
+      }
+
+      .navbar {
+        flex-direction: column;
+      }
+
+      .navbar a {
+        margin: 0.25rem 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://cdn.discordapp.com/attachments/1234567890/placeholder.png" alt="Veldkust Logo">
+    <h1>Veldkust APV</h1>
+    <h2>Algemene Plaatselijke Verordening</h2>
+    
+    <nav class="navbar">
+      <a href="index.html" class="active">Regels</a>
+      <a href="straffen.html">Straffen</a>
+      <a href="https://discord.gg/veldkust" target="_blank">Discord</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="artikel">
+      <h1>Artikel 1: Cheats <span>(Straf Categorie 8)</span></h1>
+      <p>Het gebruik maken van software (van derde partijen) om een voordeel in het spel te krijgen is niet toegestaan. Hieronder vallen o.a. cheats/hacks.</p>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 1A: Samenwerken met een cheater <span>(Straf Categorie 9)</span></h1>
+      <p>Het samenwerken met een cheater zal worden bestraft met een account wipe.</p>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 1B: Externe Software <span>(Straf Categorie 7)</span></h1>
+      <p>Het gebruik maken van instellingen/programma's waardoor je voordelen krijgt is niet toegestaan. Hier vallen o.a. de volgende zaken onder:</p>
+      <ul>
+        <li>Crosshair - zowel software als hardware</li>
+        <li>Aangepaste schermresolutie (enige toegestane resoluties zijn AUTO, 16:9 en 16:10)</li>
+        <li>Reshade</li>
+        <li>Kill effects</li>
+        <li>Tracers</li>
+        <li>Controller (aim assist)</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 2: Exploits/Bugs <span>(Straf Categorie 7)</span></h1>
+      <p>Het doelbewust gebruiken van een bug of exploit die in jouw of andermans voordeel werkt is niet toegestaan.</p>
+      <ul>
+        <li>Dupliceren van items</li>
+        <li>Uitbreken uit gevangenis via exploit</li>
+        <li>Reloggen voor health</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 3: Alt Characters <span>(Straf Categorie 8)</span></h1>
+      <p>Het is niet toegestaan meerdere accounts te gebruiken om voordeel te behalen binnen de stad Veldkust.</p>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 3A: Startersgeld <span>(Straf Categorie 8)</span></h1>
+      <ul>
+        <li>Het is niet toegestaan startersgeld aan anderen te geven zonder enige bedoeling zelf te gaan spelen.</li>
+        <li>Het is niet toegestaan om de speeltijd zonder enige doel af te wachten en dan alsnog geld over te maken zonder doel te hebben langer te gaan spelen.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 3B: Starterspakket <span>(Straf Categorie 4)</span></h1>
+      <p>Het dwingen van nieuwe spelers om het starterspakket te claimen, om die al dan niet te rippen.</p>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 4: Dreigen en intimideren <span>(Straf Categorie 8)</span></h1>
+      <p>Onder dit artikel vallen alle zaken die als bedreigend of intimiderend kunnen worden ervaren. Deze regel omvat de onderstaande punten, maar is niet beperkt tot deze gevallen:</p>
+      <ul>
+        <li>Dreigen met of daadwerkelijk 'doxen' van personen.</li>
+        <li>Dreigen met of daadwerkelijk 'DDOSsen' van personen.</li>
+        <li>Dreigen of daadwerkelijk bedreigen van personen.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 4A: Schelden/beledigen van spelers of staffleden <span>(Straf Categorie 5)</span></h1>
+      <ul>
+        <li>Het uitschelden van spelers is niet toegestaan.</li>
+        <li>Het schelden met hedendaagse ziektes is niet toegestaan.</li>
+        <li>Het doen van seksuele uitingen of beledigingen is niet toegestaan.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 4B: Racisme/discriminatie <span>(Straf Categorie 6)</span></h1>
+      <ul>
+        <li>Het maken van racistische opmerkingen is niet toegestaan.</li>
+        <li>Het maken van discriminerende opmerkingen is niet toegestaan.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 5: Haat veroorzakend/toxic gedrag <span>(Straf Categorie 4)</span></h1>
+      <p>Het toxic reageren op wat voor manier dan ook wordt niet getolereerd. Discussie voeren mag, maar houd het beschaafd.</p>
+      <ul>
+        <li>Het toxic reageren in Discord zal bestraft worden met een straf uit de 5de categorie.</li>
+        <li>Het discussiëren in Discord over een opgelegde straf van staff is niet toegestaan.</li>
+        <li>Het in scenario toxic reageren omdat je het ergens niet mee eens bent.</li>
+        <li>Het aanmaken van tickets/joinen van de wachtkamer zonder goed gegronde redenen wordt gezien als naaien, en zal worden bestraft.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 6: Fail RP <span>(Straf Categorie 4)</span></h1>
+      <p>Onder deze regel vallen alle facetten die als onrealistisch kunnen worden beschouwd. Deze regel omvat de onderstaande punten, maar is niet beperkt tot deze gevallen. Vraag je tijdens het spelen in onze stad altijd af: 'Zou dit in het echt ook op deze manier kunnen gebeuren?'.</p>
+      <ul>
+        <li>Het roleplay scenario vermijden tijdens ernstige verwondingen met andere burgers of overheidsdiensten.</li>
+        <li>Met 80 km/h over de kop raken met je voertuig.</li>
+        <li>Met 80 km/h crashen tegen onverwoestbare objecten.</li>
+        <li>Met 120 km/h crashen tegen andere voertuigen.</li>
+        <li>Met 80 km/h crashen met een motor.</li>
+        <li>Praten in de porto of bellen onder water.</li>
+        <li>Het stelen van een voertuig wanneer iemand bezig is met zijn voertuig (inladen, uitladen, tanken, repareren).</li>
+        <li>Praten/communiceren op wat voor manier dan ook, terwijl je dood bent.</li>
+        <li>Terwijl je geboeid bent gebruik maken van je telefoon of portofoon.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 7: Powergamen <span>(Straf Categorie 4)</span></h1>
+      <p>Het bewust veranderen van een scenario, door onrealistische/onmogelijke componenten toe te voegen waardoor het voor de andere partij niet uit te spelen is.</p>
+      <ul>
+        <li>Het vluchten in je appartement/greenzones/loods tijdens een scenario.</li>
+        <li>Je auto wegzetten tijdens een scenario.</li>
+        <li>Binnen 10 minuten na het trekken van je wapen je wapen wegleggen of uit de stad gaan.</li>
+        <li>Gebruik maken van het Z menu om de ID's van andere spelers te zien.</li>
+        <li>Emotes gebruiken wanneer je beschoten wordt. (Emote abuse)</li>
+        <li>Iemand vastbinden met F6 zonder geldige reden.</li>
+        <li>Onder dwang iemand iets uit zijn huis laten halen.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 8: OOC / Karakter breken <span>(Straf Categorie 3)</span></h1>
+      <p>Het is nooit toegestaan om karakter te breken. Out of character gaan is dus niet de bedoeling, ook niet als er iets gebeurt wat tegen de APV is.</p>
+      <ul>
+        <li>Het is alleen toegestaan om de Nederlandse of Engelse taal te typen/spreken in Veldkust.</li>
+        <li>OOC gaan in porto is niet toegestaan.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 9: Copbaiten <span>(Straf Categorie 2)</span></h1>
+      <ul>
+        <li>Het uitlokken van reactie van overheidsdiensten.</li>
+        <li>Het uitlokken/aangaan van achtervolgingen zonder illegale goederen/wapens/gezochtstatus te hebben.</li>
+        <li>Het schieten op agenten zonder duidelijk aanwijsbare reden.</li>
+        <li>Het verstoren van een scenario van agenten.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 10: No value of life (NVOL) <span>(Straf Categorie 4)</span></h1>
+      <p>Het is verplicht waarde te hechten aan je leven. Enkele voorbeelden van NVOL vind je hieronder:</p>
+      <ul>
+        <li>Het moedwillig beëindigen van je eigen leven of dat van een ander.</li>
+        <li>Het indrukken van de noodknop en/of het (meermaals) indrukken van de porto terwijl er een wapen op je gericht staat.</li>
+        <li>Het niet meewerken wanneer er binnen de derde praatcirkel een vuurwapen op je gericht staat.</li>
+        <li>Het niet meewerken wanneer er binnen armlengte een slag- of steekwapen op je gericht staat.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 11: New life rule <span>(Straf Categorie 3)</span></h1>
+      <p>Wanneer een speler is doodgegaan in een scenario, dient een speler alles te vergeten uit dat specifieke scenario en de aanloop er naar toe. Je kan niet meer deelnemen aan dat scenario.</p>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 12: Microfoon, taal en stem <span>(Straf Categorie 2)</span></h1>
+      <p>Iedere speler die speelt in onze stad is verplicht een microfoon te hebben en die ook te gebruiken. Daarnaast is het verplicht om push to talk te gebruiken in de stad.</p>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 12A: Voice changer en soundpad <span>(Straf Categorie 1)</span></h1>
+      <ul>
+        <li>Je bent en blijft verstaanbaar.</li>
+        <li>Het is passend in de roleplay.</li>
+        <li>In geval van stemvervorming om anoniem te blijven dien je een masker op te hebben die je mond bedekt.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 13: VDM <span>(Straf Categorie 3)</span></h1>
+      <p>Onder VDM (Vehicle Deathmatch) wordt verstaan dat het niet toegestaan is je voer-, vaar- of vliegtuig te gebruiken als wapen.</p>
+      <ul>
+        <li>Het rammen van andere voertuigen.</li>
+        <li>Het rammen van andere burgers.</li>
+        <li>Het rijdend blokkeren van op jou afkomende voertuigen.</li>
+        <li>Het pitten boven een snelheid van 130 km/h.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 14: RDM <span>(Straf Categorie 3)</span></h1>
+      <p>Onder RDM (Random Deathmatch) wordt verstaan dat het niet toegestaan is burgers te vermoorden zonder aanleiding.</p>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 15: Metagamen <span>(Straf Categorie 3)</span></h1>
+      <ul>
+        <li>Informatie verkregen buiten de game, mag niet ingame gebruikt worden.</li>
+        <li>Wanneer je in Veldkust zit is het niet toegestaan om te screensharen.</li>
+        <li>Het is niet toegestaan om ingame informatie te versturen via Discord.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 20: Combatloggen <span>(Straf Categorie 4)</span></h1>
+      <ul>
+        <li>Het spel afsluiten, terwijl je in een scenario zit is niet toegestaan.</li>
+        <li>Indien je onverhoopt uit de server gaat, heb je maximaal 5 minuten om terug te komen.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 24: Overvallen <span>(Straf Categorie 2)</span></h1>
+      <ul>
+        <li>Er is geen maximum aan het aantal overvallers bij een overval.</li>
+        <li>De hostages mogen geen vrienden of bekenden van je zijn.</li>
+        <li>De hostages moeten in de overval locatie zitten.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 27: Ontvoeren en gijzelen <span>(Straf Categorie 1)</span></h1>
+      <ul>
+        <li>Het ontvoeren van burgers is toegestaan vanaf 2 agenten in dienst.</li>
+        <li>Een agent mag pas ontvoerd worden vanaf 4 agenten.</li>
+        <li>Een persoon mag maximaal 60 minuten ontvoerd zijn.</li>
+        <li>Het maximale opeisbare bedrag per burger is 100k.</li>
+        <li>Het maximale opeisbare bedrag per politieagent is 150k.</li>
+      </ul>
+    </div>
+
+    <div class="artikel">
+      <h1>Artikel 40: Greenzones <span>(Straf Categorie 3)</span></h1>
+      <p>Het is niet toegestaan om illegale zaken op enige wijze uit te voeren in een greenzone. Hieronder vallen onder andere:</p>
+      <ul>
+        <li>Bespreken van illegale activiteiten</li>
+        <li>Gijzelen</li>
+        <li>Scammen</li>
+        <li>Rippen</li>
+        <li>Schieten</li>
+      </ul>
+    </div>
+
+  </main>
+
+  <footer>
+    © 2025 Veldkust Roleplay. Alle rechten voorbehouden.
+  </footer>
+</body>  
+</html>
